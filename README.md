@@ -14,16 +14,17 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Steven Aranibar's Cloud Journey
 
-[✍️ Introduce yourself]
+After surveying 120 Toronto data engineering job posts from linkedin, some trends started to emerge from the data I collected. You can learn more [here](https://www.linkedin.com/pulse/dear-hiring-managers-im-here-help-steven-aranibar/):
 
-[✍️ Tell us why you started this challenge]
 
-[✍️ Tell us where you want to be at the end of the challenge]
+I intend to use this 100DaysOfCloud challenge to master the linux, AWS, and other cloud components of cloud/ data engineering. 
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+
+At the end of this challenge I intend to be consistently creating content for all those interested in data and cloud engineering to move into the field as well as landing my first full time role as a data/ cloud engineer by the end of 2020. 
+
+- [✍️ See my LinkedIn profile where I post AWS and data engineering articles](https://www.linkedin.com/in/steven-aranibar-8891a2103/)
 
 ## Stepping out the door
 

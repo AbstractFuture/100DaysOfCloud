@@ -93,4 +93,4 @@ Hope that helps!
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1290994682328223744)

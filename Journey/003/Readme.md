@@ -111,4 +111,4 @@ I'll continue creating content around studying for the LFCS and CKA and other th
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1291398149756669952)

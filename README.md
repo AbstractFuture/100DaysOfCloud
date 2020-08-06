@@ -10,9 +10,6 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
 ## Steven Aranibar's Cloud Journey
 
@@ -24,7 +21,7 @@ I intend to use this 100DaysOfCloud challenge to master the linux, AWS, and othe
 
 At the end of this challenge I intend to be consistently creating content for all those interested in data and cloud engineering to move into the field as well as landing my first full time role as a data/ cloud engineer by the end of 2020. 
 
-- [✍️ See my LinkedIn profile where I post AWS and data engineering articles](https://www.linkedin.com/in/steven-aranibar-8891a2103/)
+- [See my LinkedIn profile where I post AWS and data engineering articles](https://www.linkedin.com/in/steven-aranibar-8891a2103/)
 
 ## Stepping out the door
 

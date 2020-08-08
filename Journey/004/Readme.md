@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Text Editors & Linux
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+All files on linux are plaintext and so getting comfortable with text editors in linux seems like a good idea if you intend to spend any serious amount of time working with linux.
 
-## Try yourself
+I intend for this to be a brief overview of 2 text editors; Nano and Vi. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Nano VS Vi
+From the nano man pages:
+```
+nano  is  a  small and friendly editor.  It copies the look and feel of
+       Pico, but is free software, and implements several features  that  Pico
+       lacks,  such as: opening multiple files, scrolling per line, undo/redo,
+       syntax coloring, line numbering, and soft-wrapping overlong lines.
+```
+Let's focus on the 'friendly editor' bit first. Nano was the first text editor I used in linux and so I didn't have the context for why that was worth mentioning.
 
-### Step 1 — Summary of Step
+In contrast, the first time I used Vi (which as I understand, has the same functionality as Vim), I couldn't even exit the file! I had to close my connection to the instance and start over - talk about a rough start!
 
-![Screenshot](https://via.placeholder.com/500x300)
+If you've never used nano, I like to think of it as being like many popular proprietary tools in how it can be used: think google docs or microsoft word. You can begin typing, and then save and close the file.
 
-### Step 1 — Summary of Step
+Vi on the other hand starts off very differently. There are 2 modes in Vi - Interactive and Command. Interactive mode lets you add in text after pressing one of the many hotkeys, while command mode lets you perform commands (the name command mode was an apt description!). While this may seem vague, I've included a link to Vim Adventures, a site aimed at making vi/vim intuitive for you (because it is certainly not intuitive in the same manner nano is!). 
 
-![Screenshot](https://via.placeholder.com/500x300)
+If you've never used vi and you think I am exaggerating then by all means go ahead and edit a file (and make sure it isn't important!) and I think you'll understand what I'm getting at.
 
-### Step 3 — Summary of Step
+With that aside, feel free to learn more about nano and vi in the links below.
 
-![Screenshot](https://via.placeholder.com/500x300)
+[Nano Documentaiton](https://www.nano-editor.org/docs.php)
 
-## ☁️ Cloud Outcome
+[Vi Information](http://www.truth.sk/vim/vimbook-OPL.pdf)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+[Vim Adventures](https://vim-adventures.com/)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[Tweet](link)
 
-[link](link)

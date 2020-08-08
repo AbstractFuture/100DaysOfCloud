@@ -36,5 +36,5 @@ With that aside, feel free to learn more about nano and vi in the links below.
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1291945917843673088)
 

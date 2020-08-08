@@ -28,4 +28,4 @@ I highly recommend using a VM when epirimenting with commands/ features you have
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1292234905750056961)

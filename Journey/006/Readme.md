@@ -20,4 +20,4 @@ Using ssh is a best practice for sysadmins, or anyone using linux.
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1292558473469755398)

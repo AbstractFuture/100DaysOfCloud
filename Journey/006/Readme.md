@@ -1,52 +1,23 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
+# SSH - Secure Shell
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I took some time today to learn more about ssh, which stands for 'secure shell'. Like the name implies, it is meant to be secure by hashing the password you use to login to your remote machine and therefore prevents a successful man-in-the-middle hack. 
 
-## Prerequisite
+A man-in-the-middle attack is when a hacker recieves your commands and input before they reach their destination (which would be the remote machine you are trying to access). If your commands or passwords are sent to the remote machine as unencrypted plain text then anyone intercepting it now knows your credentials. That is highly insecure. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Therefore please use ssh as opposed to unencrypted shell protocols like telnet. 
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Using ssh is a best practice for sysadmins, or anyone using linux. 
 
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+## SSH links
+- [Beginners Guide To SSH (6 minutes)](https://www.youtube.com/watch?v=qWKK_PNHnnA)
+- [How Secure Shell Works (SSH) - Computerphile (9 minutes)](https://www.youtube.com/watch?v=ORcvSkgdA58)
+- [Linux Essentials For Hackers - #17 - SSH And SSH Security (16 minutes)](https://www.youtube.com/watch?v=fLv9P-8cKI8)
+- [SSH Crash Course | With Some DevOps (55 minutes)](https://www.youtube.com/watch?v=hQWRp-FdTpc)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](link)

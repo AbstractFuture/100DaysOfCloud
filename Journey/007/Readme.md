@@ -1,4 +1,4 @@
-# Global Aliases In Ubuntu 7 CentOs (pt 1)
+# Global Aliases In Ubuntu & CentOs (pt 1)
 
 ## Introduction
 

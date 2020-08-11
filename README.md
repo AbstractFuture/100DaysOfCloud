@@ -31,7 +31,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 4 > [Text Editors & Linux](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [sudo visudo](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [SSH - Secure Shell](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
+- [ ] ☁️ 7 > [Global Aliases In Ubuntu 7 CentOs (pt 1)](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)

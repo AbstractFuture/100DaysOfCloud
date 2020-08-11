@@ -91,4 +91,4 @@ Success! Our changes were saved and our alias can be used by other users.
 In part 2 I'll detail the different steps I took to make it work on Ubuntu.
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1293017131190308866)

@@ -32,7 +32,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 5 > [sudo visudo](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [SSH - Secure Shell](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Global Aliases In Ubuntu & CentOs (pt 1)](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [ ] ☁️ 8 > [Global Aliases In Ubuntu & CentOs (pt 2)](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 

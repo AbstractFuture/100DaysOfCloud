@@ -81,4 +81,4 @@ I want to point out that I'm not sure why the output between Ubuntu and CentOS i
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1293362302771769349)

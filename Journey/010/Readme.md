@@ -39,4 +39,4 @@ Created symlink from /etc/systemd/system/sockets.target.wants/systemd-networkd.s
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1293909713877266435)

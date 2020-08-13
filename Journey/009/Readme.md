@@ -52,4 +52,4 @@ Incorrectly configuring PAM files can result in you being unable to login again!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1293713068330033155)

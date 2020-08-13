@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# PAM Files
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+PAM stands for Pluggable Authentication Modules. They are used to set authentication policies, like login for example. 
 
-## Prerequisite
+You can find PAM files with:
+```
+$ ls /etc/pam*
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+/etc/pam.conf
 
-## Use Case
+/etc/pam.d:
+chfn                           cron                    newusers   su
+chpasswd                       cups                    other      sudo
+chsh                           dovecot                 passwd     systemd-user
+common-account                 gdm-autologin           polkit-1   vmtoolsd
+common-auth                    gdm-fingerprint         ppp        vsftpd
+common-password                gdm-launch-environment  runuser
+common-session                 gdm-password            runuser-l
+common-session-noninteractive  login                   sshd
+```
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+You can check out these files with any text editor. We can use 'login' for our example. If you've read the rest of my posts thus far you know the conventions Ubuntu and CentOS use differ. We see that yet again in this example.
 
-## Cloud Research
+In Ubuntu, most of the file is commented text explaining what each setting means. While friendly to average or new users, it is a bit disorienting and looks messy. Contrast that to CentOS' neat and minimal login setup file.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+While I don't intend to paste both file contents here in this blog post (and besides, shouldn't you be getting more VM practice? If you haven't set up both an Ubuntu VM and a CentOS VM I would encourage you to do so - it will make it easier to follow along), I would like to count the number of lines in each OS to give you an idea of how minimal the CentOS version is.
 
-## Try yourself
+In Ubuntu:
+```
+$ cat login | wc -l
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+116
+```
 
-### Step 1 — Summary of Step
+And in CentOS:
+```
+$ cat login | wc -l
 
-![Screenshot](https://via.placeholder.com/500x300)
+18
+```
 
-### Step 1 — Summary of Step
+Quite a difference! But the minimal approach is only useful if you already know what is contained in each file and what the implications are for changing the settings.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Incorrectly configuring PAM files can result in you being unable to login again! This is why I highly recommend to start setting up VMs. It's better to break a toy car than totally demolish a real one.
 
-### Step 3 — Summary of Step
+## Useful Links
+[Linux Pluggable Authentication Modules (PAM)](https://www.youtube.com/watch?v=uebQr2KvQzA)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+[Using Pluggable Authentication Modules (PAM)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/managing_smart_cards/pluggable_authentication_modules)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

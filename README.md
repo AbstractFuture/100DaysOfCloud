@@ -34,7 +34,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 7 > [Global Aliases In Ubuntu & CentOs (pt 1)](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Global Aliases In Ubuntu & CentOs (pt 2)](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [PAM Files](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [systemd-networkd on CentOS 7 Linux](Journey/010/Readme.md)
 
 ## Walking down the road
 

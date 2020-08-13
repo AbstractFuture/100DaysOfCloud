@@ -1,52 +1,42 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# systemd-networkd on CentOS 7 Linux
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I was studying up on configuring networks for the LFCS exam when I saw a discrepancy between my tutorial and the LF provided CentOS vm. 
 
-## Prerequisite
+The command I was trying to run after I disabled NetworkManager was:
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+```
+$ systemctl enable systemd-networkd
+```
 
-## Use Case
+However no file in my CentOS vm was found. I used tab autocomplete to see what was available for my systemd options.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+```
+systemd-backlight@  systemd-hibernate-resume@   systemd-rfkill@
+systemd-bootchart.service   systemd-nspawn@
+systemd-fsck@   systemd-nspawn@.service
+```
+I used ```yum``` to install systemd-networkd successfully but in an LFCS exam you are not allowed to look up things on google. I'm glad I tested this out before hand otherwise I would have been in serious trouble. 
 
-## Cloud Research
+## Downloading systemd-networkd
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+After re-enabling NetworkManager use the following commands:
+```
+$ yum -y install systemd-networkd
 
-## Try yourself
+$ systemctl disable NetworkManager
+Removed symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service.
+Removed symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service.
+Removed symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+$ systemctl enable systemd-networkd
+Created symlink from /etc/systemd/system/multi-user.target.wants/systemd-networkd.service to /usr/lib/systemd/system/systemd-networkd.service.
+Created symlink from /etc/systemd/system/sockets.target.wants/systemd-networkd.socket to /usr/lib/systemd/system/systemd-networkd.socket.
+```
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

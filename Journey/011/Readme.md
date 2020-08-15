@@ -9,4 +9,4 @@ Continued learning about systemd-networkd, as well as systemd-resolved.
 
 [General Network Configuration](http://www.linuxfromscratch.org/lfs/view/8.0-systemd/chapter07/network.html)
 
-[Twwet](link)
+[Tweet](https://twitter.com/lrnallday/status/1294454592865030144)

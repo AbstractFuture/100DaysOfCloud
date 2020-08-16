@@ -79,4 +79,4 @@ You can now create a criteria to log actions and processes as well as configure 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1295057087471521794)

@@ -95,4 +95,4 @@ If any service is critical to your system - I highly recommend adding in this ov
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1294798428921376773)

@@ -1,52 +1,75 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Linux Kernel Module Commands
 
-# New post title here
+I'll list a few basic commands, what they do, why I use them, and how to perform some basic tasks.
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+We'll determine which Linux kernel modules are currently loaded in our system, load the module for vfat support, determine if the vfat support module has any dependencies, unload this module, and ensure that our system can be used to forward IP packets.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM. 
 
-## Use Case
+## List Of Linux Kernel Modules
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Open up terminal and use 
 
-## Cloud Research
+```
+[root@centos ~]# lsmod
+```
+to determine which modules are loaded.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+The rightmost column for this output, titled 'used by' provides information about dependencies. 
 
-## Try yourself
+## Load VFAT Module
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+To manually load a kernel module, specifically vfat, use the following command:
 
-### Step 1 — Summary of Step
+```
+[root@centos ~]# modprobe vfat
+```
+Now reuse the previous command in the following way to confirm that the vfat kernel module was loaded:
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+[root@centos ~]# lsmod | grep vfat
+vfat            17461   0
+fat             65950   1   vfat
+```
 
-### Step 1 — Summary of Step
+The output in the rightmost column indicates that ```fat``` is a dependency of ```vfat```. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Unload A Module
 
-### Step 3 — Summary of Step
+```
+[root@centos ~]# modprobe -r vfat
+[root@centos ~]# lsmod | grep vfat
+[root@centos ~]# 
+[root@centos ~]# lsmod | grep fat
+[root@centos ~]# 
+```
+No results found for vfat or fat indicates we've successfully unloaded the module. I should note that modprobe considers dependencies which is why I only needed to remove vfat with a single command instead of removing vfat and then using ```modprobe -r fat```. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Forwarding IP Packets
 
-## ☁️ Cloud Outcome
+Find the setting that indicates if IP forwarding is enabled:
+```
+[root@centos ~]# sysctl -a | grep 'net.ipv4.ip_forward ='
+net.ipv4.ip_forward = 0
+```
+Zero indicates the setting is disabled. In order to enable we need to edit the sysctl.conf file.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+```
+[root@centos ~]# nano /etc/sysctl.conf
+```
+And paste the following line at the bottom of the config file:
 
-## Next Steps
+```
+net.ipv4.ip_forward = 1
+```
+Save and exit the conf file. 
 
-✍️ Describe what you think you think you want to do next.
+Now that we've enabled IP forwarding, our server will behave like a router.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](link)

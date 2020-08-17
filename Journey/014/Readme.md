@@ -72,4 +72,4 @@ Now that we've enabled IP forwarding, our server will behave like a router.
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1295343927969624064)

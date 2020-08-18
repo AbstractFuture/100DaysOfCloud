@@ -42,7 +42,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 12 > [Systemd Service Restarts](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [Creating Daily Logs](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Linux Kernel Module Commands](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [](Journey/015/Readme.md)
+- [ ] ☁️ 15 > [GRUB & Quiet](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)

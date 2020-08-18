@@ -1,52 +1,61 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# GRUB & Quiet  
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+✍GRUB stands for Grand Unified Bootloader which is a bootloader package that lets you choose to boot from multiple operating systems installed on the computer. 
+
+"Quiet" in this case refers to a setting I intend to change in the default grub settings. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+This demonstration will be on a CentOS7 VM. Grub file locations may differ among other distros so keep that in mind if you intend to follow along.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+If you want to see all standard boot messages displayed (for troubleshooting purposes or out of curiousity) then you'll need to alter the default settings located in ```/etc/default/grub```.
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### The Default File
 
-### Step 1 — Summary of Step
+The default settings look like this in CentOS 7:
+```
+GRUB_TIMEOUT=5
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="crashkernel=auto rhgb quiet"
+GRUB_DISABLE_RECOVERY="true"
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+### The Changes To The Default File
 
-### Step 1 — Summary of Step
+Notice "```rhgb quiet```". This supresses messages from being displayed when booting up. Simply delete that so the file looks like so:
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+GRUB_TIMEOUT=5
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="crashkernel=auto"
+GRUB_DISABLE_RECOVERY="true"
+```
+Save and exit. Remember that everything in linux is a plain text file, so we need to tell our system to check this file again and make the appropriate changes.
 
-### Step 3 — Summary of Step
+```
+[root@centos ~]# grub2-mkconfig -o /boot/grub2/grub.cfg
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+Once that is done you need to reboot, and then you're good to go!
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+## Links For More Info
 
-## Next Steps
+[GNU GRUB](https://en.wikipedia.org/wiki/GNU_GRUB)
 
-✍️ Describe what you think you think you want to do next.
+[Setting Up grub2 On CentOS 7](https://wiki.centos.org/HowTos/Grub2)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

@@ -58,4 +58,4 @@ Once that is done you need to reboot, and then you're good to go!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1295872932640698368)

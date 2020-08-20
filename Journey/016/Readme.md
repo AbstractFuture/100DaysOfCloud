@@ -20,4 +20,4 @@ Diagnose and fix the issue.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1296271262382161922)

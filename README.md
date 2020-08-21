@@ -45,7 +45,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 15 > [GRUB & Quiet](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Firewalls In Linux](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [SELinux](Journey/017/Readme.md)
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
+- [ ] ☁️ 18 > [LFCS Exam Review](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 

@@ -32,4 +32,4 @@ I recommend checking out the [artcile](https://www.linkedin.com/pulse/docker-aws
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1296618480687554561)

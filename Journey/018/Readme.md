@@ -32,4 +32,4 @@ Continue exam prep for LFCS. I have my exam on Friday Sept 4th. Wish me luck!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1296787638150737921)

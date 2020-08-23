@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt2
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Continued going over some routine tasks such as creating users, creating groups and then associating users to groups. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Any linux distro should suffice.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Associating users with groups is great for assigning permissions. For example, associating a group titled 'sales' with all sales reps users and then changing the permissions of the sales/ directory such that only sales people can access them is a good idea. Why allow all users on the system to have the opportunity (by accident or by malicious intent) to alter files that lead to errors. 
 
-## Cloud Research
+It's best to grant permissions to only those that need it.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## Cloud Research Links
 
-## Try yourself
+[How to create users and groups in CentOS7](https://manage.accuwebhosting.com/knowledgebase/2959/How-to-create-users-and-groups-in-CentOS7.html)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+[How to Manage User Password Expiration and Aging in Linux](https://www.tecmint.com/manage-user-password-expiration-and-aging-in-linux/)
 
-### Step 1 — Summary of Step
+[Different ways to Update/Change users password in Linux](https://www.2daygeek.com/linux-passwd-chpasswd-command-set-update-change-users-password-in-linux-using-shell-script/)
 
-![Screenshot](https://via.placeholder.com/500x300)
+[A Complete Guide to Usage of ‘usermod’ command – 15 Practical Examples with Screenshots](https://www.tecmint.com/usermod-command-examples/)
 
-### Step 1 — Summary of Step
+[The /etc/skel Directory](http://www.linfo.org/etc_skel.html)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](link)

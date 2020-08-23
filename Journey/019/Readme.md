@@ -29,4 +29,4 @@ It's best to grant permissions to only those that need it.
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1297342543588470784)

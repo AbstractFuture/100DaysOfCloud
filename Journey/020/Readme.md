@@ -10,4 +10,4 @@ I intend to alter permissions such that one of the many practice users I've crea
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1298464858745315329)

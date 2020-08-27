@@ -61,4 +61,4 @@ Continue studying for my rapidly approaching LFCS exam! I still need to cover ma
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1298821978061709313)

@@ -1,52 +1,64 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt4
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I learned about sticky bit permissions.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+I specifically used a CentOS 7 VM but I imagine most (or all) distros have standardized permission commands/ tools so feel free to expiriment on your prefferred distro :)
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Imagine this: A user responsible for their own department as well as other departments may warrant a different level of access than a user lower in the heirarchy. For example, this person may want to be able to see what files exist in the other department directories, but users in these departments may not need to have access (either writing or deleting) to another departments files. 
+
+This is where sticky bit comes in.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+From the chmod man page:
+
+```
+RESTRICTED DELETION FLAG OR STICKY BIT
+       The  restricted  deletion  flag  or  sticky  bit is a single bit, whose
+       interpretation depends on the file type.  For directories, it  prevents
+       unprivileged  users  from  removing or renaming a file in the directory
+       unless they  own  the  file  or  the  directory;  this  is  called  the
+       restricted  deletion  flag  for the directory, and is commonly found on
+       world-writable directories like /tmp.  For regular files on some  older
+       systems,  the  bit saves the program's text image on the swap device so
+       it will load more quickly when run; this is called the sticky bit.
+```
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+For this example I have the following directories already set up:
 
-### Step 1 — Summary of Step
+```
+[root@centos]# ll /permpractice/
+total 8
+drwxrwx--- 2 boss account 4096 Aug 23 08:51 account
+drwxrwx--- 2 boss sales   4096 Aug 23 08:51 sales
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+These are 2 different departments directories both with their own group ID, and the boss needs to be able to delete files in the account directory even when belonging to the sales group. 
 
-### Step 1 — Summary of Step
+I use the following command to enable the boss user to do so and then verify that the permissions have changed:
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+```
+[root@centos]# chmod +t account
+[root@centos]# chmod +t sales
+[root@centos]# ll /permpractice/
+total 8
+drwxrwx--T 2 boss account 4096 Aug 23 08:51 account
+drwxrwx--T 2 boss sales   4096 Aug 23 08:51 sales
+```
+Notice the capital 'T' indicating sticky bit permissions are in effect.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Continue studying for my rapidly approaching LFCS exam! I still need to cover managing storage, networking, containers, more practice managing services, and automating tasks.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

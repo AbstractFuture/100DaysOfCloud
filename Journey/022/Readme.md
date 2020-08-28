@@ -177,4 +177,4 @@ DESCRIPTION
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1299164271243386880)

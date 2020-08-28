@@ -52,7 +52,7 @@ At the end of this challenge I intend to be consistently creating content for al
 ## Crossing the bridge
 
 - [ ] ☁️ 21 > [LFCS Exam Review pt4](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [ ] ☁️ 22 > [LFCS Exam Review pt5](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)

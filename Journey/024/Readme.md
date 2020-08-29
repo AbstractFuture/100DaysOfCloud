@@ -1,52 +1,59 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt7
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Focused on networking utilities and concepts. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+CentOS 7 or Ubuntu VM
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+The materials I reviewed are 
+- ip addr show
+- hostnamectl
+- ifconfig
+- ss -tuna
+- nmap
+- dig
+- ip route show
+- ping
+- /etc/resolve.conf
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+To learn more about your network configuration, use the following commands:
 
-### Step 1 — Summary of Step
+```
+$ ip addr show
+```
+```
+$ ip route show
+```
+```
+$ cat /etc/resolv.conf
+```
+Before moving into more complex troubleshooting it is worthwhile to start with the simple utilities. See if you can ping google.
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+$ ping google.com
+```
+To learn more about what services are offered by the service, use ```ss``` , the socket status utility.
 
-### Step 1 — Summary of Step
+```
+$ ss -tuna
+```
+Check the man pages for a better understanding of the options ```ss``` can accept.
 
-![Screenshot](https://via.placeholder.com/500x300)
+The ```nmap``` utility is an advanced network analysis tool. If you were to use it on a public network, it will be regarded as a hostile action. DO NOT use it on a public network. You have been warned. 
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I do, however, recommend using it to analyze your own private network. 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I intend to cover LVM (logical volume management) and other partition related things. I'm considering creating a few brief tutorials on the material I've covered thus far as well.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

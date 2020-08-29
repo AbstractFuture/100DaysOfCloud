@@ -56,4 +56,4 @@ I intend to cover LVM (logical volume management) and other partition related th
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1299746245896998914)

@@ -64,4 +64,4 @@ I intend to move onto other areas like managing storage, memory, and containers.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1299508206893510656)

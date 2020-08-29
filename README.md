@@ -53,7 +53,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 - [ ] ☁️ 21 > [LFCS Exam Review pt4](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [LFCS Exam Review pt5](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
+- [ ] ☁️ 23 > [LFCS Exam Review pt6](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)

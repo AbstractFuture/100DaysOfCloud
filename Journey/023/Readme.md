@@ -1,52 +1,67 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt6
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I reviewed networking. I reviewed NetworkManager, the network service, network configuration file location, and nmtui (network manager text user interface).
+
+I also ran into issues around the network service. I am unsure of whether this is due to my VM configuration or the system settings. For example, in some VM network configurations would result in ping being unable to locate google.com! Definitely not ideal. I'll play around with it a bit more but I intend to do review of other topics as well. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+This article focuses on a CentOS 7 VM. Steps may not be reproducible among other distros.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### NetworkManager
+NetworkManager (which also happens to be the only systemd service that uses capitals in its name) is a tool used to manage the network card settings. On my system it is located in ```/etc/sysconfig/network-scripts```.
 
-## Try yourself
+The file is titled ```ifcfg-ens33```. If you are comfortable with a text editor you can edit this file directly instead of using NetworkManager.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### nmtui
+nmtui is the NetworkManager Text User Interface. It allows you to edit the network card file. It is unstable with some redhat versions so be wary of using it carelessly. 
 
-### Step 1 — Summary of Step
+Like NetworkManager, you don't need to use nmtui if you are comfortable with a text editor and want to edit the file directly.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### The Network Service
+This service activates or deactivates network interfaces that are configured to start at boot time. 
 
-### Step 1 — Summary of Step
+In my exam prep, the tutorial shows that the network service by default should be running, but it failed to start on my system.
 
-![Screenshot](https://via.placeholder.com/500x300)
+I had a look at which configuration files are in the directory:
+```
+[root@centos]# ls /etc/sysconfig/network-scripts/
+ifcfg-ens33
+ifcfg-lo
+```
+It is my understanding that virtualbox uses a different naming convention. When I want to see the name of my network with ```ip addr show``` it shows up as ```enp0s3```. 
 
-### Step 3 — Summary of Step
+I try to force load ifcfg-ens33 using:
+```
+[root@centos]# ifup /etc/sysconfig/network-scripts/ifcfg-ens33
+```
+However I get the following error message:
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+Error: Connection activation failed: No suitable device found for this connection (device enp0s3 not available because profile is not compatible with device (mismatching interface name))
+```
+I thought that perhaps copying the file, renaming it and altering it's contents to replace instances of ```ens33``` with ```enp0s3``` would suffice if I re run the command using this new ```ifcfg-enp0s3``` configuration but I then get a new error:
+
+```
+Error   : [/etc/sysconfig/network-scripts/ifup-eth] Device ens33 does not seem to be present, delaying initialization.
+```
+
+Now that was a surprise! Does this mean my VM doesn't even have the device that the network service is supposed to manage?
+
+This has been a very frustrating point in the tutorial.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Practice makes perfect. Repeating these commands and committing them to memory so I can pass this LFCS exam.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I intend to move onto other areas like managing storage, memory, and containers.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

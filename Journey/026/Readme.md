@@ -67,4 +67,4 @@ You can now see and alter time settings on your system.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1300424509779070976)

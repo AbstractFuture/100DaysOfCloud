@@ -50,4 +50,4 @@ I intend to continue studying for my (rapidly approaching) exam on Friday Sept. 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1300238091035324422)

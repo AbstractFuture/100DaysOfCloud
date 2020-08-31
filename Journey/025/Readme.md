@@ -1,52 +1,53 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt8
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I continued with the LFCS practice. I covered LVM, creating encrypting disks with cryptsetup, fdisk vs gdisk, mkswap, and fstrim.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+I used a CentOS 7 VM. Steps or explanations may differ on other distros.
 
-## Use Case
+## LVM
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Logical Volume Management exists because as the free space on your partitions decreases and aproaches zero, you need to create volumes from several partitions that may even span several different disks. 
 
-## Cloud Research
+The LVM utility and its' related commands like lvcreate are used to do so.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+## cryptsetup
 
-## Try yourself
+While using this utility on a new partition, I ran in to an error. It said it ```failed to setup dm-crypt key mapping for device``` and after checking the journalctl logs I saw an ```unknown target type``` error. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+To add a bit of context, the utility started, seemed to work fine (I successfully chose a target disk and also selected a password) but as I finished retyping the password the utility would fail. 
 
-### Step 1 — Summary of Step
+The tutorial I was watching didn't have this error at all! 
 
-![Screenshot](https://via.placeholder.com/500x300)
+I decided to try simple trouble shooting ideas: were all my packages up to date? I hadn't considered that was the issue, but I figured it was a good start. I updated all packages with ```yum``` and used the cryptsetup utility once more, this time successfully! 
 
-### Step 1 — Summary of Step
+## fdisk vs gdisk
 
-![Screenshot](https://via.placeholder.com/500x300)
+fdisk and gdisk are both utlities that manipulate partitions (create, delete, etc.) but fdisk has a limit of 5 partitions and up to 2T whereas gdisk can handle up to 128 primary partitions.
 
-### Step 3 — Summary of Step
+I intend to use gdisk and not fdisk during the LFCS so I can focus on problem solving the exam questions and not worrying about the limitations of the utility.
 
-![Screenshot](https://via.placeholder.com/500x300)
+## mkswap
 
-## ☁️ Cloud Outcome
+Like ```mkfs```, we use ```mkswap``` instead of ```mkfs``` when setting up our swap partition and this tells linux that it is intended to be a swap as opposed to file systems like xfs or ext4.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+## fstrim
+
+```fstrim``` is a utility designed to clean up and optimize ssd storage media. You automate it so it runs weekly (less room for forgetfulness/ human error).
+
+I used a one-off command for the purposes of my testing as opposed to full weekly automation.
+
+```
+# systemctl enable --now fstrim.timer
+```
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I intend to continue studying for my (rapidly approaching) exam on Friday Sept. 7th. Wish me luck!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

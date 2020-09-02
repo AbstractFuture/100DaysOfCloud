@@ -34,4 +34,4 @@ Review my previous 26 days for more specifics about each of the above topics.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1300957730509914112)

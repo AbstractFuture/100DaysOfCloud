@@ -130,4 +130,4 @@ Continue with exam review: firewalld, containers, lvm, and controlling processes
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1301244244150149120)

@@ -1,52 +1,37 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# LFCS Exam Review pt10
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+With my LFCS exam booked for this Friday, I took some time to review old labs and concepts.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+A CentOS 7 VM.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I covered many different topics:
+
+- Systemd: using systemd-networkd and systemd-resolved for networking, altering systemd services to be persistent and restart on failure, used systemd timer to schedule services instead of using /etc/crontab, deleted old NetworkManager /etc/resolv.conf file and replaced with a symbolic link to the systemd file /etc/systemd/resolved.conf 
+
+- Syslog: Scheduled cronjobs using the snap-in directories to write messages to syslog
+
+- Scheduling: used at's intuitive syntax to schedule jobs 5 minutes in the future and then monitor processes related to that job
+
+- hostnamectl: changed hostname using hostnamectl
+
+- ports: checked open ports using netstat -tulpen and ss -tuna
+
+- PAM: revisited how to alter pam files, changed which tty were regarded as secure and altered PAM files such that logging into root in an unsecure tty was not possible
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Review my previous 26 days for more specifics about each of the above topics.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+✍Continuing with LFCS exam reviiew! Containerization, more LVM tasks, and scheduling scripts that kill or enable processes.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

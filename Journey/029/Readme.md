@@ -15,4 +15,4 @@ Continue with containerization, more SELinux, more networking, managing ssh serv
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1301719417148112896)

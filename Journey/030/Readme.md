@@ -1,52 +1,31 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# LFCS Exam Review pt13
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Reviewed containerization with Docker and LXC (Linux Containers).
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I used a CentOS 7 VM but any distro should suffice.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+First impressions: I found docker more user friendly than I did LXC. 
 
-## Try yourself
+Neat tricks: using nmap to scan the docker ip addresses (which all live in the range of 172.17.x.x) such that I can learn which docker container is on which IP address.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Also if I understood correctly, to mount storage to a docker container on your home lab you need to alter the selinux enforcing status to permissive:
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+```
+$ setenforce 0
+```
+More to come over the next week regarding containers.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I'd like to learn how to make a docker container run automatically when docker restarts/ starts on next reboot. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

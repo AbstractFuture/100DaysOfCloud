@@ -60,7 +60,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 27 > [LFCS Exam Review pt10](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [LFCS Exam Review pt11](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [LFCS Exam Review pt12](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [ ] ☁️ 30 > [LFCS Exam Review pt13](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 

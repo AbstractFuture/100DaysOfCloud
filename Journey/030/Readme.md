@@ -28,4 +28,4 @@ I'd like to learn how to make a docker container run automatically when docker r
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1302393717303672832)

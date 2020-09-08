@@ -19,4 +19,4 @@ Still working on making a container start automatically when docker restarts or 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1303159257873944582)

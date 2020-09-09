@@ -14,4 +14,4 @@ Reviewed labs and performed more RAID related tasks.
 
 ## Social Proof
 
-[Tweet](link)
+[Tweet](https://twitter.com/lrnallday/status/1303542565090865152)

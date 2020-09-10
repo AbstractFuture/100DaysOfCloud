@@ -16,4 +16,4 @@ Creating a more detailed raid level 5 device tutorial and then perhaps more on u
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1303902428178329601)

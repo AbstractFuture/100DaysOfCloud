@@ -90,4 +90,4 @@ Reviewing labs around SSH, configuring web services, and FTP services.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1304606842568482816)

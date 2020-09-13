@@ -36,4 +36,4 @@ If you aren't running linux, you could set up 2 linux VMs and practice that way,
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1304965838181748736)

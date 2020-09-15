@@ -10,4 +10,4 @@ Any VM distro should suffice.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1305704307216580608)

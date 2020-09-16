@@ -10,4 +10,4 @@ Today I learned about:
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1306070989281939457)

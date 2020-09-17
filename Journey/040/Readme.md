@@ -9,4 +9,4 @@ While I completed the tasks, it is clear I need to get faster, memorize more com
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1306400525794127872)

@@ -7,4 +7,4 @@ I intend to study for another 2 weeks and retake the LFCS. I redid the previous 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1306775434756075523)

@@ -77,7 +77,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
+- [ ] ☁️ 41 > [LFCS Exam Review pt24](Journey/041/Readme.md)
 - [ ] ☁️ 42 > [](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)

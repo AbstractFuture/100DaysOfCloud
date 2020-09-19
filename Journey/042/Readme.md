@@ -6,4 +6,4 @@ Redoing timed labs from the previous days. Need to rely less on man pages if I w
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1307144767617335296)

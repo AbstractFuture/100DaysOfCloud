@@ -23,4 +23,4 @@ My goal is to transition into devops about 1-2 months after completing my 12 wee
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1307519138336735233)

@@ -1,52 +1,26 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# AWS Re/Start
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+AWS re/Start is a program offered by AWS (who, at least in this case, partner with local government) to offer free cloud bootcamps. It was amazing to get this acceptance email and I have been preparing the documents which I Will submit tomorrow!
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+You can find the AWS program [here](https://aws.amazon.com/training/restart/) where you can inquire for more details. 
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+The program is a full time 12 weeks of study.
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+In my case this will be done entirely remotely due to covid, but should you apply and be accepted at a later date you may need to attend in person. I recommend you do your due diligence and learn what is required of you should you choose to apply and accept the offer.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Continue with the LFCS exam review, begin the cloud bootcamp, get my AWS cloud practitioner cert, and study for the CKA.
+
+My goal is to transition into devops about 1-2 months after completing my 12 week bootcamp. Wish me luck!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

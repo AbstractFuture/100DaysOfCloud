@@ -30,4 +30,4 @@ Continuing with LFCS exam review, of course!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1308225909732896769)

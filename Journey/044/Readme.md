@@ -1,52 +1,33 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Resetting VM
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+After some difficulty completing LFCS exam practice labs from the complexity of new changes I made, I decided to start from a new VM.
+
+The old CentOS VM had many things altered from my practice labs and personal tinkering, which doesn't necessarily give me a complete picture of steps I need to take to reproduce or solve a problem. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Some practical VM experience is useful here, specifically if you used it to prepare for remote exams.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Some of the issues I had that I am now solving with greater ease after using a new VM with basic settings:
 
-## Try yourself
+- Configuring user permissions 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Setting up/ removing encrypted disks
 
-### Step 1 — Summary of Step
+- After adding in so many new block devices to practice RAID and LVM, it was getting difficult to keep track of what I was building
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Realizing some packages are not installed on the distro by default
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Figuring out which process produced the resolv.conf file
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Continuing with LFCS exam review, of course!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

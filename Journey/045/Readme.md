@@ -29,4 +29,4 @@ I'll be getting more familiar and detailing this process a bit better such that 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1308593911116464134)

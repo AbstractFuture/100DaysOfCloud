@@ -81,7 +81,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 42 > [LFCS Exam Review pt25](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [AWS Re/Start](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [Resetting VM](Journey/044/Readme.md)
-- [ ] ☁️ 45 > [](Journey/045/Readme.md)
+- [ ] ☁️ 45 > [Virtual Hosts](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [](Journey/048/Readme.md)

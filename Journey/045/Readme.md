@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Virtual Hosts
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+After redoing the virtual hosts lab, I found that not only was it more complicated than I remembered, but I couldn't properly recall the order of steps to take to resolve virtual hosts.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+A single apache process can handle many different hosts, for example it can handle a hundred host names so only needing a single apache httpd process makes things relatively simple if you have 100 website domain names. 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Note that steps roughly described here may be innacurate (after all, I struggled to produce the results I wanted) so do your own research before implementing.
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I needed to:
+- add the ip address and domain name (along with a shortcut name) to ```/etc/hosts``` file
+- alter the httpd configuration file at ```/etc/httpd/conf/httpd.conf``` to check the files for virtual host configuration that I would be making in this exercise
+- create the virtual host configuration files in the snap in directory located in ```/etc/httpd/conf.d/```
+- make both the directory I specified in ```/etc/httpd/conf/httpd.conf``` as well as the child directory for each virtual host configuration file I created
+- create the index.html file in each child directory which corresponds to each virtual host I have added
+- change the selinux policy, apply the context label to the directory that I specified in ```/etc/httpd/conf/httpd.conf``` and then reboot
+- use ```curl``` to get the contents of our virtual host: ```curl http://[virtualhostnamegoeshere]```
+- sigh in relief that it all worked
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I'll be getting more familiar and detailing this process a bit better such that I can a) memorize the correct procedure and b) implement it quickly within a time limit
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

@@ -20,4 +20,4 @@ Use man pages for these utilities for further reading:
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1309315700650119168)

@@ -14,4 +14,4 @@ More to come in the following days! stay tuned.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1309680195968929798)

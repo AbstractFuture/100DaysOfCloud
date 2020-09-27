@@ -20,4 +20,4 @@ More advanced topics that I still strugle with include: SELinux  options and ipt
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1310051457119461376)

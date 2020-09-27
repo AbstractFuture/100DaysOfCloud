@@ -84,7 +84,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 45 > [Virtual Hosts](Journey/045/Readme.md)
 - [ ] ☁️ 46 > [Virtual Hosts pt2](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [FTP & DNS Study Session](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [](Journey/048/Readme.md)
+- [ ] ☁️ 48 > [Basic Lab Review](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [](Journey/049/Readme.md)
 - [ ] ☁️ 50 > [](Journey/050/Readme.md)
 

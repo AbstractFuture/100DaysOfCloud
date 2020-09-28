@@ -37,4 +37,4 @@ Learning about NFS and CFIS file sharing, and perhaps data base configuration as
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1310410493811666945)

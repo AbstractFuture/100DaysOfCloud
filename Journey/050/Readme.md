@@ -18,4 +18,4 @@ Continue the AWS re/START bootcamp and study for the LFCS
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1310766153191616513)

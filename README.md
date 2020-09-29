@@ -86,7 +86,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 47 > [FTP & DNS Study Session](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [Basic Lab Review](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [DNS (more complicated than I thought!)](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
+- [ ] ☁️ 50 > [AWS re/START - Day 1](Journey/050/Readme.md)
 
 ## Winding through the canyons
 

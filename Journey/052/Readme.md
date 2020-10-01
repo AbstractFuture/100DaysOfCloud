@@ -290,4 +290,4 @@ Configuring Basic Email Handling labs and other material.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1311779923271573506)

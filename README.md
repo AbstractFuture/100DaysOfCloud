@@ -90,7 +90,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [](Journey/051/Readme.md)
+- [ ] ☁️ 51 > [NFS & CIFS/SAMBA](Journey/051/Readme.md)
 - [ ] ☁️ 52 > [](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)

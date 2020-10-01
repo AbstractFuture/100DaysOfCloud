@@ -82,4 +82,4 @@ Creating a directory to share via NFS and figuring out how to have several diffe
 
 ## Social Proof
 
-[tweet]()
+[tweet](https://twitter.com/lrnallday/status/1311495405448855554)

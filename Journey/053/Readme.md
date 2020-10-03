@@ -15,4 +15,4 @@ I found an even number of job postings specifying rhel/centos and ubuntu/debian.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1312195852140593153)

@@ -73,4 +73,4 @@ Up next I'll manage virtualization!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1312905209480347653)

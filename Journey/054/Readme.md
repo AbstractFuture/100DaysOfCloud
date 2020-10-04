@@ -1,52 +1,75 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Mail on Linux
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+The LFCS probably won't cover too many complicated topics related to mail, but you will need to know the basics of email handling, configuring postfix, and configuring dovecot as an imap server.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM.
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I have a grasp of configuring postfix but require more time to configure and memorize the dovecot steps. Therefore this tutorial will focus on postfix.
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+We'll be configuring a postfix server to accept messages from other servers.
 
-### Step 1 — Summary of Step
+### Step 1 — Comment out the following lines
 
-![Screenshot](https://via.placeholder.com/500x300)
+Open up the main postfix configuration file ```/etc/postfix/main.cf``` with your choice of text editor and comment out the following lines like so:
 
-### Step 1 — Summary of Step
+```
+#inet_interfaces = localhost
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+#mydestination = $myhostname, localhost.$mydomain, localhost
+```
 
-### Step 3 — Summary of Step
+```
+#myorigin = $myhostname
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 — Uncomment the following lines
+
+Uncomment these existing lines like so:
+
+```
+inet_interfaces = all
+```
+
+```
+mydestination = $myhostname, localhost.$myhostname, localhost, $mydomain
+```
+
+```
+myorigin = $mydomain
+```
+
+### Step 3 — Add in the following new lines
+
+Add in the following new lines where the cluster of  ```mynetworks``` paramater settings are.
+
+```
+mynetworks = youripandsubnetmaskgohere
+```
+
+### Step 4 — Alter this existing setting
+
+Search the following string ```inet_protocols = all``` and replace ```all``` with ```ipv4``` otherwise it will search for ipv6 addresses and if you have not properly configured everything related to ipv6 correctly then you will have some very troublesome errors.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+You've now configured the fule such that postfix will accept messages from other servers.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Configuring a web proxy for the LFCS practice.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[]()

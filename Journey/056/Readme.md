@@ -32,4 +32,4 @@ You now have the correct settings and software installed to allow for embedded v
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1313318573327233024)

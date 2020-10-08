@@ -97,7 +97,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 55 > [Proxies: More complicated than I expected](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [More Virtual Machines Prep](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Directory & Permissions Practice](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [](Journey/058/Readme.md)
+- [ ] ☁️ 58 > [KVM For LFCS](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 

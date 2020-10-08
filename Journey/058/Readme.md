@@ -1,52 +1,78 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# KVM For LFCS
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+While I covered the necessary packages to set up a KVM virtual machine on day56, today will cover the commands assuming all packages are installed (like they will be for the LFCS)
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM with the following packages installed:
 
-## Use Case
+- qemu-kvm
+- libvirt
+- libvurt-client
+- virt-install
+- virt-viewer
+- virt-manager
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+The following services must be enabled:
+
+- libvirtd
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+The commands are fairly easy and straightforward (at least with regards to the LFCS). They involve listing enabled or all VMs, stopping/starting VMs, and auto starting VMs. 
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1 — Enable libvirtd
 
-### Step 1 — Summary of Step
+```
+# systemctl enable --now libvirtd
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 — View all VMs
 
-### Step 1 — Summary of Step
+To see running VMs use:
+```
+# virsh list
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+To see all VMs use:
+```
+# virsh list -all
+```
 
-### Step 3 — Summary of Step
+### Step 3 — Start Or Stop A VM
 
-![Screenshot](https://via.placeholder.com/500x300)
+Starting a VM from CLI:
+```
+# virsh start vmnamegoeshere
+```
+
+Stopping a VM from CLI:
+```
+# virsh destroy vmnamegoeshere
+```
+
+Don't be intimidated by the ```destroy``` option. Once you use it you can verify that it stopped the VM and didn't delete it with ```virsh list --all```.
+
+### Step 4 — Autoenabling VMs
+
+To have VMs automatically start use:
+```
+# virsh autostart vmnamegoeshere
+```
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+You now know all you need to know regarding the LFCS and KVM!
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I intend to do more docker practice, specifically around auto starting containers, and then a timed review of all labs completed thus far.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

@@ -75,4 +75,4 @@ I intend to do more docker practice, specifically around auto starting container
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1314006508561223680)

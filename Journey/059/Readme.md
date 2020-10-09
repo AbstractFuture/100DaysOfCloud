@@ -1,52 +1,66 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Docker Made Easy For The LFCS
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+This will be a summary of commands you ought to know for the lfcs. No fluff.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+A CentOS 7 VM.
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1 — Downloading Docker
 
-### Step 1 — Summary of Step
+```
+$ yum install docker
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 — Download & run image
 
-### Step 1 — Summary of Step
+```
+$ systemctl start docker
+$ docker search nginx
+$ docker run nginx
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 3 — Verify Container Status
 
-### Step 3 — Summary of Step
+```
+$ docker ps
+```
+Output should show all running containers
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 4 — Change Restart Policy
+
+While you could also run the container for the first time with the restart policy enabled I chose to do it afterwards.
+
+Take the container ID from the output of ```docker ps``` and use it in the following command;
+
+```
+$ docker update --restart always <container id goes here>
+```
+### Step 4 — Test & Verify
+
+```
+$ docker stop <container id goes here>
+$ systemctl stop docker
+$ systemctl start docker
+$ docker ps
+```
+So we have stopped the container, stopped restarted docker and lastly checked the output of ```docker ps``` which shows us running containers.
+
+The output should indicate that it is running! Congrats!
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+This is all you need to know with regards to docker and the LFCS.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next I will cover LXC containers for the LFCS.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

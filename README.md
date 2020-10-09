@@ -98,7 +98,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 56 > [More Virtual Machines Prep](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [Directory & Permissions Practice](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [KVM For LFCS](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [](Journey/059/Readme.md)
+- [ ] ☁️ 59 > [Docker Made Easy For The LFCS](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 
 ## Stumbling through the caves

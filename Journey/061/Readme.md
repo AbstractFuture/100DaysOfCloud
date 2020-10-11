@@ -1,52 +1,63 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# LXC Container Practice
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+More container labs! Unfortunately I experienced some errors regarding autostart that I didn't have with docker (check out day60 for that) which I am still trouble shooting.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM. 
 
-## Use Case
+Also, download the following packages.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- epel-release
+- lxc
+- lxc-templates
+- lxc-extra
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+List current running containers:
+```
+$ lxc-ls -f
+```
 
-### Step 1 — Summary of Step
+None should be running. Let's confirm that the downloaded packages are functioning as intended:
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+$ lxc-checkconfig
+```
+The output (if it is functioning) should be a list of settings set to 'enabled'.
 
-### Step 1 — Summary of Step
+Now let's use the templates we downloaded earlier to create a CentOS lxc container
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+$ lxc-create -t centos -n <containernamegoeshere>
+```
+The -t option specifies that we are using a script from the template directory at ```/usr/share/lxc/templates/```` and the -n lets us specify the new container name.
 
-### Step 3 — Summary of Step
+```
+$ lxc-ls -f
+```
+You should now see the running container listed. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Here are a list of other commands you can check the man pages for additional information:
+
+- lxc-info
+- lxc-autostart
+- lxc-start
+- lxc-attach
+- lxc-stop
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+You've got a centos LXC container up and running!
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+I'll continue to troubleshoot the autostart erros I experienced. After that I will be doing lab review.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

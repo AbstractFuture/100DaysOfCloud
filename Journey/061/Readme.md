@@ -60,4 +60,4 @@ I'll continue to troubleshoot the autostart erros I experienced. After that I wi
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1315115158528815104)

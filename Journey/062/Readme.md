@@ -1,52 +1,77 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Working With Files (& a quick container review)
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I practiced working with files using the ```find``` command, created hard links, and reviewed the docker and lxc commands I could recall. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM is required.
 
-## Use Case
+## Working With Files
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I use ```find``` command to locate all files on my system with a size bigger than 100 MiB and write the results of that command to a new file ```/tmp/bigfiles```.
 
-## Cloud Research
+```
+$ man find # I needed to consult the man page because I forgot what the default size paramater was
+$ find / -size +100M  
+```
+I confirm that the output looks appropriate but to make it more readable I direct the error messages to ```/dev/null```.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+```
+$ find / -size +100M 2>/dev/null
+```
 
-## Try yourself
+Perfect - the output is readable and I now direct that output to a new file in my ```/tmp``` directory.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+```
+$ find / -size +100M 2>/dev/null > /tmp/bigfiles
+```
 
-### Step 1 — Summary of Step
+Now that a list of all files on the system is created I need to create a hard link which points to that location.
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+$ ln /tmp/bigfiles /root/bigfiles
+```
 
-### Step 1 — Summary of Step
+I got no errors so I confirm that the target file and link name file share the same inode number.
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+$ ls -li /tmp/bigfiles /root/bigfiles
+```
 
-### Step 3 — Summary of Step
+Success!
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Container Recap
 
-## ☁️ Cloud Outcome
+### Docker Commands
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- yum install docker
+- systemctl start docker
+- docker search
+- docker pull
+- docker start --restart always nginx # or any container name
+- docker ps
+- docker stop
+- docker restart
+
+### LXC Commands
+
+- yum install epel-release
+- yum install lxc lxc-templates lxc-extra
+- lxc-checkconfig
+- lxc-create 
+- lxc-start
+- lxc-stop
+- lxc-ls -f
+- lxc-autostart
+
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Probably some more practice with adding users, modifying user default settings and some more lab review.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

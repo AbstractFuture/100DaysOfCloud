@@ -74,4 +74,4 @@ Probably some more practice with adding users, modifying user default settings a
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1315471778521780224)

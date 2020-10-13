@@ -105,7 +105,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 - [ ] ☁️ 61 > [LXC Container Practice](Journey/061/Readme.md)
 - [ ] ☁️ 62 > [Working With Files (& a quick container review)](Journey/062/Readme.md)
-- [ ] ☁️ 63 > [](Journey/063/Readme.md)
+- [ ] ☁️ 63 > [Basic Linux Permissions (& VM troubleshooting)](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)

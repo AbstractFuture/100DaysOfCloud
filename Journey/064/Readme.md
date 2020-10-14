@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Advanced Linux Permissions (& More VM troubleshooting)
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+While the basic permissions yesterday focused on file and group ownership as well as chmod values, todays lab dealt with ```SGID``` and ```stickybit```.
+
+I also am experiencing an LXC issue I had not encountered previously. While ```lxc-checkconfig``` shows a green status of all settings enabled, I am unable to start the container because the virtual ethernet bridge is throwing an error. I need to investigate further.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+A CentOS 7 VM and a working LXC configuration.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Special Permissions
 
-## Try yourself
+```SGID``` stands for 'Set Group ID'. It will allow all new files and directories within a directory to automatically be owned by the group owner.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+```Stickybit``` allows only the file or directory owner to delete files they have created.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next steps include repeating the lab in a much faster time frame and troubleshooting the LXC issues. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

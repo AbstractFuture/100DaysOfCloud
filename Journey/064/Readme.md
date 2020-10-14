@@ -25,4 +25,4 @@ Next steps include repeating the lab in a much faster time frame and troubleshoo
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1316178731480870912)

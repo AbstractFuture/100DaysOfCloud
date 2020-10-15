@@ -22,4 +22,4 @@ I intend to retake the LFCS in another 2 weeks or so. Until then I am practicing
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1316805424977510405)

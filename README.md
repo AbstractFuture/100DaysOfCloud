@@ -108,7 +108,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 63 > [Basic Linux Permissions (& VM troubleshooting)](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [Advanced Linux Permissions (& More VM troubleshooting)](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [LVM Practice & LXC Container Troubleshooting](Journey/065/Readme.md)
-- [ ] ☁️ 66 > [](Journey/066/Readme.md)
+- [ ] ☁️ 66 > [LFCS Sample Exam](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [](Journey/069/Readme.md)

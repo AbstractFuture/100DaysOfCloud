@@ -33,7 +33,7 @@ But what I failed to do was enable the service via systemctl.
 
 ```
 # systemctl status rc-local
-# systemctl enable --now rc-service
+# systemctl enable --now rc-local
 ```
 
 ## Try yourself

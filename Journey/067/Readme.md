@@ -46,4 +46,4 @@ Practice regarding: LVM, RAID, SELinux, and networking.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1317519112218812417)

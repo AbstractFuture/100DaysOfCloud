@@ -1,52 +1,49 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# LFCS Speed Run (Sample Exam)
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I completed the LFCS practice exam in under an hour.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+A CentOS 7 VM and the sample exam provided by the LFCS, which you can find on day66 of my 100DaysOfCloud journey.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+A good way to look at this is "So you speedran the exam, but did you answer the questions well?". And in retrospect there were 2 basic questions I was incorrect on. Firstly, using tar syntax and secondly, I failed to alter the init sequence such that the rc.local would run at boot time. 
+
+This rc.local task was a bit nuanced (in my opinion) so let me share my process with you all. The task is as follows: Alter the init boot sequence so that the ​ rc.local​ or boot.local​ script (depending on the distribution that you have selected) is executed at boot time.
+
+The steps I took were;
+
+Checking out the file contents of rc.local
+
+```
+# vim /etc/rc.d/rc.local
+```
+
+The commented notes explained I needed to make this executable such that it could be used at boot time.
+
+```
+# chmod +x /etc/rc.d/rc.local
+# ll /etc/rc.d/rc.local
+```
+But what I failed to do was enable the service via systemctl.
+
+```
+# systemctl status rc-local
+# systemctl enable --now rc-service
+```
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Check out the LFCS sample exam and see if you have any difficulty completing the exercises.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Practice regarding: LVM, RAID, SELinux, and networking.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

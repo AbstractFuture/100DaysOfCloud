@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Cloud Career Updates
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I thought perhaps a few of you might be interested in career cloud progress thus far as opposed to a brief tech tutorial or overview of commands.
 
-## Prerequisite
+If not then I will continue with strictly tech tutorials/ project content. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Cloud Progress
 
-## Use Case
+Over the last 3 weeks I've;
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- speed tested myself completing LFCS labs
 
-## Cloud Research
+- had a recruiter review my resume and give me actionable tips to improve readability
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- connected with several Toronto based professionals in the cloud/ devops field
 
-## Try yourself
+- attended several cloud and devops meetups which have strengthened my resolve to complete my 3 certifications (LFCS, CKA, AWS CCP) within 90 days
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- consulted with the devops reddit page about what python resources and projects to investigate
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- continue LFCS speedrun practice labs
+
+- find recruiting agencies in Toronto specialized in placing devops/ cloud talent
+
+- complete the 3 aforementioned certs within 90 days (sooner would be better)
+
+- implement all changes to my resume
+
+- begin building out job posting crm and begin cold calling companies, recruiters, and hiring managers in general
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

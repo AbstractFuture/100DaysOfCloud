@@ -110,7 +110,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 65 > [LVM Practice & LXC Container Troubleshooting](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [LFCS Sample Exam](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [LFCS Speed Run (Sample Exam)](Journey/067/Readme.md)
-- [ ] ☁️ 68 > [](Journey/068/Readme.md)
+- [ ] ☁️ 68 > [Cloud Career Updates](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 

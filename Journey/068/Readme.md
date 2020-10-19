@@ -35,4 +35,4 @@ Over the last 3 weeks I've;
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1318179732492570626)

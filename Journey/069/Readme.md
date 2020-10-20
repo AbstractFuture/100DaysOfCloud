@@ -19,4 +19,4 @@ A CentOS 7 VM.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1318558910953984000)

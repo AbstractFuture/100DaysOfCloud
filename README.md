@@ -111,7 +111,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 66 > [LFCS Sample Exam](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [LFCS Speed Run (Sample Exam)](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [Cloud Career Updates](Journey/068/Readme.md)
-- [ ] ☁️ 69 > [](Journey/069/Readme.md)
+- [ ] ☁️ 69 > [Booking Exam (Again)](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
 
 ## Resting at the Lagoon

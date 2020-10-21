@@ -17,4 +17,4 @@ An interesting side note is that LFCS broad range of topics is about 3 times the
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1318914601493405696)

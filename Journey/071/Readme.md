@@ -32,4 +32,4 @@ Setting the default from graphical to multi-user won't take effect until reboot 
 ## Social Proof
 
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1319366378521038848)

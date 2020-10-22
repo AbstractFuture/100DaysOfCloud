@@ -1,52 +1,35 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# LFCS: compiling exam questions
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I compiled a list of questions to speedrun for the lfcs.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM.
 
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+The questions I compiled covered about half of the LFCS content and I completed it within the hour. I consider that a good sign, assuming the remaining 50% of the content takes the same amount of time to complete.
 
-## Try yourself
+I also changed the setup of the VM to mimic the exam environment a bit better by setting the default boot mode to ```multi-user.target``` as opposed to ```graphical.target```.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+You can alter these default settings in CentOS 7 using the following commands;
 
-### Step 1 — Summary of Step
+```
+# systemctl get-default
+# systemctl set-default multi-user.target
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+Setting the default from graphical to multi-user won't take effect until reboot but you can enter multi-user mode right away using;
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+```
+# systemctl isolate multi-user.target
+```
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet]()

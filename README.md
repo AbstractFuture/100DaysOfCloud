@@ -116,7 +116,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 ## Resting at the Lagoon
 
-- [ ] ☁️ 71 > [](Journey/071/Readme.md)
+- [ ] ☁️ 71 > [LFCS: compiling exam questions](Journey/071/Readme.md)
 - [ ] ☁️ 72 > [](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [](Journey/074/Readme.md)

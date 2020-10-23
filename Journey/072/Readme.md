@@ -1,52 +1,45 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+
+# The Other 50% (LFCS speedrun)
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I completed labs and compiled questions from the remaining 50% of content I have not yet speedrun. I intend to have the full list of questions/ list of tasks compiled by thursday next week.
 
 ## Prerequisite
+A CentOS 7 VM. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Speedrun Topics Remaining
 
-## Use Case
+- pam configuration
+- systemd-networkd configuration
+- systemd timers
+- rsyslog
+- working with kernel modules
+- managing the boot procedure
+- firewalling
+- selinux (not really looking forward to this one lol)
+- encrypted partition practice
+- lvm
+- RAID solutions
+- managing user quotas on different file system types
+- web service configuration (including virtual hosts)
+- ftp services
+- samba servers
+- DNS
+- web proxy
+- email handling
+- virtual machines KVM (not containers!)
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Once those questions are compiled and labs are done, I can speedrun all exam related content and ace the LFCS within the allotted 2 hours. 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+More speedruns until I can completely finish all questions within 2 hours.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

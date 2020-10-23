@@ -42,4 +42,4 @@ More speedruns until I can completely finish all questions within 2 hours.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1319580397097844738)

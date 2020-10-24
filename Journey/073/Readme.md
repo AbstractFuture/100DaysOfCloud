@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Scripting, PAM Configs & Networking labs review
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I reviewed labs with regards to bash shell scripting, changing pam configurations such that certain teletypes were regarded as insecure and root was unable to login, disabling the NetworkManager on CentOS 7 and setting up persistent networking with systemd-networkd and systemd-resolved.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+A CentOS 7 VM.
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+See if you can complete the following tasks
 
-### Step 1 — Summary of Step
+### Bash Shell Scripting
 
-![Screenshot](https://via.placeholder.com/500x300)
+Create and run a script that will print out the name of the user who executed the script as well as print out your default gateway.
 
-### Step 1 — Summary of Step
+### PAM Configuration
 
-![Screenshot](https://via.placeholder.com/500x300)
+Find the file that specifies which teletypes are secure, alter it such that tty4 is now insecure, and alter the appropriate PAM configuration(s) such that root will be unable to login to tty4. 
 
-### Step 3 — Summary of Step
+### Networking With Systemd
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Disable NetworkManager and use systemd-networkd to manage networking.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Do lab review speedrun for all previous labs and then move onto kernel management, boot procedure, firewall, SELinux, LVM, and filesystem/ mounts labs.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

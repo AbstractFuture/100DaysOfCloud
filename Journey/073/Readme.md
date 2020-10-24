@@ -31,4 +31,4 @@ Do lab review speedrun for all previous labs and then move onto kernel managemen
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1319976470236831744)

@@ -119,7 +119,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 71 > [LFCS: compiling exam questions](Journey/071/Readme.md)
 - [ ] ☁️ 72 > [The Other 50% (LFCS speedrun)](Journey/072/Readme.md)
 - [ ] ☁️ 73 > [Scripting, PAM Configs & Networking labs review](Journey/073/Readme.md)
-- [ ] ☁️ 74 > [](Journey/074/Readme.md)
+- [ ] ☁️ 74 > [systemd-networkd on CentOS 7](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [](Journey/075/Readme.md)
 - [ ] ☁️ 76 > [](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)

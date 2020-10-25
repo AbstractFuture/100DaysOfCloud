@@ -105,4 +105,4 @@ Also do a speedrun of all previous labs to ensure I have not forgotten anything!
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1320325428704411648)

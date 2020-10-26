@@ -15,4 +15,4 @@ Next labs will be storage management (lvm and raid ) and then managing user quot
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1320717664768217088)

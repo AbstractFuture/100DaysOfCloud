@@ -121,7 +121,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 73 > [Scripting, PAM Configs & Networking labs review](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [systemd-networkd on CentOS 7](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [Speedrun Review + SELinux (also firewalling)](Journey/075/Readme.md)
-- [ ] ☁️ 76 > [](Journey/076/Readme.md)
+- [ ] ☁️ 76 > [Lab Review: Encrypted Partitions ](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [](Journey/079/Readme.md)

@@ -27,4 +27,4 @@ I'd like to continue the labs regarding lvm, RAID, creating systemd mounts, user
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1321455835474780160)

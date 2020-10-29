@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# LVM, RAID, QUOTA, SSH & Other Labs
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I worked through creating logical volumes, RAID solutions, implementing user quotas on both ext4 and xfs filesystems, some ssh practice as well as command review and timed lab speedrun of all previous labs. I still need more practice regarding SELinux and iptables (not sure why I found these to be the least intuitive subjects).
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+A CentOS 7 VM. 
 
-## Use Case
+### LVM topics
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I practiced creating physical volumes, volume groups (which rely on having physical volumes available to them), and logical volumes (which rely on storage in the volume group). 
 
-## Cloud Research
+I also worked on extending or reducing the logical volume size. I should note that it is recommended to resize both the filesystem and logical volume in a single command, otherwise you risk data corruption. 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### RAID solutions
 
-## Try yourself
+I added a virtual disk to my VM for practice purposes. I created both RAID 1 and RAID 5 devices.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+I practice failing, removing, and replacing a device in the RAID 5 configuration, as well as mounting RAID devices persistently. 
 
-### Step 1 — Summary of Step
+### SSH
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I setup an ssh connection to a virtual machine and also practiced setting up a passwordless ssh setup on kodekloud such that I could ssh into a remote machine without ever being prompted for a password.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Complete another lab speedrun covering the labs mentioned here
+
+- Complete web, ftp, DNS, and SAMBA labs. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

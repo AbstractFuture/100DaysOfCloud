@@ -123,7 +123,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 75 > [Speedrun Review + SELinux (also firewalling)](Journey/075/Readme.md)
 - [ ] ☁️ 76 > [Lab Review: Encrypted Partitions ](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [Lab Review & Getting Locked Out Of My Own System (Thank you based SELinux)](Journey/077/Readme.md)
-- [ ] ☁️ 78 > [](Journey/078/Readme.md)
+- [ ] ☁️ 78 > [LVM, RAID, QUOTA, SSH & Other Labs](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [](Journey/079/Readme.md)
 - [ ] ☁️ 80 > [](Journey/080/Readme.md)
 

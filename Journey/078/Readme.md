@@ -33,4 +33,4 @@ I setup an ssh connection to a virtual machine and also practiced setting up a p
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1321796857346068480)

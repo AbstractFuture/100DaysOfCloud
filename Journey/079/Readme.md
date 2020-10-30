@@ -24,4 +24,4 @@ A minor side note: I'm debating between simply using vim for all my networking c
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1322136538491375617)

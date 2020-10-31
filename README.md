@@ -125,7 +125,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 77 > [Lab Review & Getting Locked Out Of My Own System (Thank you based SELinux)](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [LVM, RAID, QUOTA, SSH & Other Labs](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [Speedrun & Web Servers (Including VirtualHosts)](Journey/079/Readme.md)
-- [ ] ☁️ 80 > [](Journey/080/Readme.md)
+- [ ] ☁️ 80 > [Rescheduling Exam & Lab Review](Journey/080/Readme.md)
 
 ## Up into the mountains
 

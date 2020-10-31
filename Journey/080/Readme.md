@@ -3,7 +3,7 @@
 
 ## Introduction
 
-I oopted to postpone the exam one more week to make sure I could complete all labs without using man pages or forgetting syntax or procedures. I'm feeling much more confident this time than I did on my first attempt.
+I opted to postpone the exam one more week to make sure I could complete all labs without using man pages or forgetting syntax or procedures. I'm feeling much more confident this time than I did on my first attempt.
 
 ## Prerequisite
 
@@ -15,4 +15,4 @@ A CentOS 7 VM.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1322677673454411777)

@@ -129,7 +129,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 ## Up into the mountains
 
-- [ ] ☁️ 81 > [](Journey/081/Readme.md)
+- [ ] ☁️ 81 > [Setting Up Server 2](Journey/081/Readme.md)
 - [ ] ☁️ 82 > [](Journey/082/Readme.md)
 - [ ] ☁️ 83 > [](Journey/083/Readme.md)
 - [ ] ☁️ 84 > [](Journey/084/Readme.md)

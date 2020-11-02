@@ -24,4 +24,4 @@ I can now practice the following labs:
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1323254129213513731)

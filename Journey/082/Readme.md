@@ -16,4 +16,4 @@ Today I redid the nfs/cifs file sharing now that my secondary server was set up.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1323633296790736899)

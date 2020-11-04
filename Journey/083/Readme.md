@@ -1,52 +1,49 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Samba Server & Quota speedrun
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I (mostly) redid the Samba (and NFS, but mostly Samba) server lab and mounted it persistently on a remote machine. I also tried redoing the quotas on both xfs and ext4 filesystems and realized I need more practice. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+2 CentOS7 VMs. And some patience.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### SAMBA/NFS
 
-## Try yourself
+I mainly spent the most of the time in this lab troubleshooting a mount error on the remote machine. I tried restarting samba on both machines, verified the firewall configuration on both machines, and made sure that the server was indeed available on a remote machine.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+HOWEVER, what I forgot to do was create a linux user on the second machine that would match the credentials entered on the first machine with ```smbpasswd -a < usernamegoeshere >```. A rookie mistake. 
 
-### Step 1 — Summary of Step
+### Quota Speedrun
 
-![Screenshot](https://via.placeholder.com/500x300)
+I can tell I'll need to redo this lab another 2-3 times before I can recall all the commands. 
 
-### Step 1 — Summary of Step
+ext4 and xfs filesystems use different commands to create quotas and enforce them. It's clear I should be redoing this lab at least once a day until I can recall all commands with proper syntax.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Other Labs
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I also configured logrotation, rsyslog, made journald persistent, and some minor cron labs.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- do quota lab at least once per day
+- review RAID labs (creating different kinds of RAID configurations from scratch)
+- virtual hosts labs (until I can perform it faster)
+- get faster with SELinux
+- firewalls
+- LVM (and extending or reducing a logical volume)
+- crypttab labs
+- configuring ftp services
+- mail
+- creating a caching only DNS (also some other related DNS stuff)
+- Databases (mariadb)
+- some containerization, although I'm very comfortable with it now
+- some network review
+- and lastly, doing some web proxy labs and restricting access using squid
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

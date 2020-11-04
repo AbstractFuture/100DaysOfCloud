@@ -46,4 +46,4 @@ I also configured logrotation, rsyslog, made journald persistent, and some minor
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1324004437451563008)

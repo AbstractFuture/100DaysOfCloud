@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# SELinux Setup & Another Speedrun
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Yesterday I setup a new VM not using the Linux Foundation provided vmdk file. I was still using CentOS 7, however by default SELinux is enabled and enforcing, whereas the Linux Foundations VM default settings are set to disabled which made it difficult to meaningfully practice setting context labels on directories and ports.
 
-## Prerequisite
+I also completed labs in the following areas from scratch:
+- persistent networking with systemd-networkd
+- modifying systemd services
+- making systemd-journald persistent
+- altering rsyslog configuration
+- managing the boot procedure by altering and saving changes to ```/etc/defaults/grub```
+- firewalld and iptables
+- creating encrypted partitions
+- creating logical volumes and then changing their size
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I get faster with each speedrun and rely less on man pages or google search. 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Next labs should include the following:
+- redo RAID solutions from scratch
+- user quota
+- managing ssh services
+- managing web services
+- virtual hosts
+- configuring ftp services
+- DNS
+- NFS and CIFS
+- mariadb
+- squid web proxy
+- containers
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

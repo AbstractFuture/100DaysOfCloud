@@ -132,7 +132,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 81 > [Setting Up Server 2](Journey/081/Readme.md)
 - [ ] ☁️ 82 > [File Sharing & Virtual Host Practice](Journey/082/Readme.md)
 - [ ] ☁️ 83 > [Samba Server & Quota speedrun](Journey/083/Readme.md)
-- [ ] ☁️ 84 > [](Journey/084/Readme.md)
+- [ ] ☁️ 84 > [SELinux Setup & Another Speedrun](Journey/084/Readme.md)
 - [ ] ☁️ 85 > [](Journey/085/Readme.md)
 - [ ] ☁️ 86 > [](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [](Journey/087/Readme.md)

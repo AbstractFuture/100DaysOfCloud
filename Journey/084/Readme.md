@@ -37,4 +37,4 @@ Next labs should include the following:
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1324310968218849281)

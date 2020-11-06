@@ -21,4 +21,4 @@ Next steps include speed running the following labs:
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1324651675810992129)

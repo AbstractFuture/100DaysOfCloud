@@ -45,4 +45,4 @@ Speedrun all labs today and pass the LFCS.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1325015696804339713)

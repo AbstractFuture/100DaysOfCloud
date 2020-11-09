@@ -25,4 +25,4 @@ Andrew also provided some alternatives to a ci/cd project that I could investiga
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1325727062901071873)

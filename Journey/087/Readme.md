@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Career Planning & Certs
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I wanted to give a brief overview of my cloud journey thus far and some ideas about where I'll be going in the remainder of 2020. 
 
-## Prerequisite
+## Cloud Certs
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+I should have my LFCS results within the next 48 hours or so. I was a lot more confident this time around and I could easily answer the heavy weighted questions - which is quite an improvement!
 
-## Use Case
+Next on the list would be the CKA and AWS CCP. I was considering taking a python cert but all exams seem to be multiple choice and not performance based. Therefore I think I would prefer to build a project and host it on github for employers to explore or discuss with me in interviews. 
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+A hands on project, unlike multiple choice question exams, result in a tangible software deliverable - something I imagine employers would be keen to see as opposed to a credential they may be unfamiliar with.
 
-## Cloud Research
+My project will be something CI/CD related (most likely! This is still to be determined). 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+This leaves me with another concern; am I placing too much value in the CKA exam and am I incorrectly prioritizing this cert instead of the hands on project? Should I change the order in which I pursue certs such that I can begin cold calling and reaching out employers sooner? 
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+If you have any insight into this, please reach out to me! I'd be very curious to hear your ideas.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Have a clear priority for what needs to be accomplished, and in what order, for the remainder of 2020. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

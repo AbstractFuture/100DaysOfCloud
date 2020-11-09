@@ -25,4 +25,4 @@ Have a clear priority for what needs to be accomplished, and in what order, for 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1325598637368504320)

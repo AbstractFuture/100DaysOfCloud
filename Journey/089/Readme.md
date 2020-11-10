@@ -11,4 +11,4 @@ A google account such that you can access google cloud services.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1326159852515827715)

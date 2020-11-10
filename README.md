@@ -137,7 +137,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 86 > [LFCS Exam Day](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [Career Planning & Certs](Journey/087/Readme.md)
 - [ ] ☁️ 88 > [Talking With Mentors](Journey/088/Readme.md)
-- [ ] ☁️ 89 > [](Journey/089/Readme.md)
+- [ ] ☁️ 89 > [Setting Up My Test Environment](Journey/089/Readme.md)
 - [ ] ☁️ 90 > [](Journey/090/Readme.md)
 
 ## Into the sky to touch the cloud!

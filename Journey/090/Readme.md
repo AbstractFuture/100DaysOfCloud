@@ -5,11 +5,6 @@
 
 Today I completed my Kubernetes Fundamentals course from the Linux Foundation, began the DevOps & SRE Fundamentals course, and learned a little bit about Terraform.
 
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
 ## ☁️ Cloud Outcome
 
 I'm better understanding the roles I'm hoping to transition into and add value asap. Also; I'm now ready to begin my CKA exam prep.
@@ -20,4 +15,4 @@ One step closer to taking the CKA! I hope to pass before December. After that I'
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1326628638314418176)

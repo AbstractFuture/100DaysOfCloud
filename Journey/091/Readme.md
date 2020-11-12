@@ -21,4 +21,4 @@ I intend to complete the docker and kubernetes kodekloud courses before doing my
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1326842378112684037)

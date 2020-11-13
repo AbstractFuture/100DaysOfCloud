@@ -19,4 +19,4 @@ Finish the docker course, begin the kubernetes course, and take my CKA exam prep
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1327195439163170818)

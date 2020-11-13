@@ -143,7 +143,7 @@ At the end of this challenge I intend to be consistently creating content for al
 ## Into the sky to touch the cloud!
 
 - [ ] ☁️ 91 > [Final 10 (and next steps)](Journey/091/Readme.md)
-- [ ] ☁️ 92 > [](Journey/092/Readme.md)
+- [ ] ☁️ 92 > [KodeKloud Docker Course](Journey/092/Readme.md)
 - [ ] ☁️ 93 > [](Journey/093/Readme.md)
 - [ ] ☁️ 94 > [](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [](Journey/095/Readme.md)

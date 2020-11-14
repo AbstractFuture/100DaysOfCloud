@@ -1,52 +1,25 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# KodeCloud Kubernetes For Beginners
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I finsihed the docker intro course and labs and moved onto Kubernetes. My hope is to finish the labs and course this weekend, and move onto exam practice. I intend to book my exam 7 days after I finish the kubernetes course. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Some knowledge of docker (which can be gained with KodeKloud's Docker for beginners course). A good attitude also helps :)
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Finish the Kubernetes course
+- Schedule CKA exam for 7 days after finishing the Kubernetes course
+- Do exam prep 7 days all day in a row
+- Build DevOps project and enter the job market
+
+If I fail the CKA on my first round I will add an additional 2 weeks of study, and use [killer.sh](https://killer.sh/cka) resources to ensure I am ready. 
+
+I'm going full speed ahead! No breaks or excuses. Only a real good attitude and a lot of grit.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

@@ -22,4 +22,4 @@ I'm going full speed ahead! No breaks or excuses. Only a real good attitude and 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1327613546260271105)

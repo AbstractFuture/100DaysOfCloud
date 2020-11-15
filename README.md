@@ -145,7 +145,7 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 91 > [Final 10 (and next steps)](Journey/091/Readme.md)
 - [ ] ☁️ 92 > [KodeKloud Docker Course](Journey/092/Readme.md)
 - [ ] ☁️ 93 > [KodeCloud Kubernetes For Beginners](Journey/093/Readme.md)
-- [ ] ☁️ 94 > [](Journey/094/Readme.md)
+- [ ] ☁️ 94 > [KodeKloud Kubernetes Continued](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [](Journey/096/Readme.md)
 - [ ] ☁️ 97 > [](Journey/097/Readme.md)

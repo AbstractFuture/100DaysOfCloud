@@ -13,7 +13,6 @@ Concepts I will be learning include;
 - Kubernetes pods, replicasets and deployments
 - networking in Kubernetes
 - microservices architecture
-- 
 
 ## Next Steps
 
@@ -24,4 +23,4 @@ Concepts I will be learning include;
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1327919417070641152)

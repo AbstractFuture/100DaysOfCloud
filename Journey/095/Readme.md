@@ -14,4 +14,4 @@ Cotninuing KodeKloud Kubernetes lectures and labs. Mainly focused on yaml yester
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1328285672168361986)

@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# CKA Exam Prep
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today I'm starting off with some CKA exam prep. I'll schedule my exam 7 days from now and we'll see how ready I am.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+The upside of scheduling the CKA early (I mean who really considers 1 week sufficient for the CKA if this is their first exposure to it?) is that the CKA offers a candidate a retry if they fail. Therefore I can use this to my advantage by learning what sort of questions will be on the exam. Consider taking the exam before you're ready as gathering intelligence.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Since Kuburnetes has so many features, a candidate is allowed to have one browser window open to look at the kubernetes documentation. This will allow you to quickly copy yaml templates over (although it is your responsibility to ensure the template suits the task). 
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+CKA exam topics include;
+- core concepts
+- scheduling
+- logging and monitoring
+- application life cycle management
+- cluster maintenance
+- security
+- storage
+- networking
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- complete exam prep
+- build devops project
+- enter the job market
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet]()

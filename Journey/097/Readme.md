@@ -27,4 +27,4 @@ Some basic knowledge of kubernetes is required.
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1329072019330121734)

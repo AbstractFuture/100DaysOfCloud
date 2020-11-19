@@ -23,4 +23,4 @@ For production environments, it is recommended to use declarative commands so th
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1329364770399645697)

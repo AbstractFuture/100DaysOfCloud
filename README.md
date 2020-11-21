@@ -150,5 +150,5 @@ At the end of this challenge I intend to be consistently creating content for al
 - [ ] ☁️ 96 > [CKA Exam Prep](Journey/096/Readme.md)
 - [ ] ☁️ 97 > [CKA studying - part 2](Journey/097/Readme.md)
 - [ ] ☁️ 98 > [Kubernetes - Imperative & Declarative Commands](Journey/098/Readme.md)
-- [ ] ☁️ 99 > [](Journey/099/Readme.md)
+- [ ] ☁️ 99 > [Productivity Tips (Don't shoot the messenger)](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)

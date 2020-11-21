@@ -25,4 +25,4 @@ Listen, your mileage may vary here. I'm only sharing what has made me more produ
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1330244198239522820)

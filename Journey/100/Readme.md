@@ -25,4 +25,4 @@ I'll be getting CKA certified, AWS CCP certified, and building projects to then 
 
 ## Social Proof
 
-[Tweet]()
+[Tweet](https://twitter.com/lrnallday/status/1330435235004166145)
